@@ -1,0 +1,107 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo{
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+.logoimg{
+    margin-right: 10px;
+    width: 150px;
+    height: 100px;
+}
+.logo h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.name{
+    margin-top: 30px;
+}
+.right{
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.search{
+  padding: 8px;
+  border-radius: 20px;
+    margin-right: 40px;
+    border-radius: 20px;
+}
+.right-section{
+  display: block;
+ margin-bottom: 40px;
+}
+.cartdatalength {
+  background-color: red;
+  color: white;
+  padding: 0.65rem;
+  border-radius: 50%;
+  font-size: 1.0rem;
+  margin-right: 1rem;
+}
+.fa-shopping-basket {
+  font-size: 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.fa:hover{
+    cursor: pointer;
+}
+
+.container{
+    width: 100%;
+    background-color: #dad5d5;
+    margin-top: 20px;
+    
+    
+  }
+  .container header{
+    width: 100%;
+    background-image: url("../../logo/ap_logo.jpg");
+    opacity: 1.5;
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+   
+  }
+  .textHeader{
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+  }
+  .textHeader h1{
+    font-size: 50px;
+    color: rgb(241, 125, 9);
+    padding: 10px;
+  }
+  .textHeader p{
+    font-size: 25px;
+    color: rgb(142, 246, 206);
+    padding: 10px;
+  }
+  .textHeader h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .textHeader p {
+    font-size: 30px;
+    color: #e3e3e3;
+  }
+  hr{
+    background-color: white;
+  }
